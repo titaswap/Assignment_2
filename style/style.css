@@ -1,0 +1,132 @@
+.header {
+    background-color: #fffbf0;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    border-radius: 1em;
+    background-image: url(media/Logo/Group\ 33064.png);
+    background-repeat: no-repeat;
+    background-position: 40% top;
+}
+
+.menu_header {
+    background-color: rgba(19, 206, 102, 0.9);
+    border-radius: .5rem;
+}
+
+p {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.logo {
+    width: 18em;
+}
+
+img {
+    width: 90%;
+}
+
+.menu-setting a {
+    margin-right: 1.5em;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #363958;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.header_content p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.9em;
+}
+
+.shopping_cart img {
+    width: 1.5em;
+    margin-right: 0.2em;
+}
+
+.shopping_cart {
+    background-color: #13ce66;
+    width: 10em;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 40px;
+}
+
+.price {
+    font-family: Roboto Black;
+    color: #e91d63;
+}
+
+.button_redius {
+    border-radius: .5em;
+    color: white;
+}
+
+.card_section {
+    border-radius: 1em;
+    border: 0 solid;
+    margin-top: 1em;
+}
+
+.jacke_pic_size {
+    width: 90%;
+    height: 28em;
+}
+
+.footer,
+.man-jacket {
+    margin-top: 5rem;
+}
+
+.footer_card {
+    border: 0 solid;
+    border-radius: 1rem
+}
+
+.footer_article {
+    width: 450px;
+}
+
+.footer h4 {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #363958;
+}
+
+.footer_logo img {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .profile_pic {
+        margin-top: 3em;
+    }
+    .header {
+        background-image: none;
+    }
+    .jacke_pic_size {
+        height: 35em;
+    }
+    .category_title {
+        text-align: center;
+        font-size: 3em;
+    }
+}
